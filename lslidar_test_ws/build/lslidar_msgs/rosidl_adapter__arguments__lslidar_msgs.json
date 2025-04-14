@@ -1,0 +1,10 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/src/LSLIDAR_X_ROS2/src/lslidar_msgs:msg/LslidarDifop.msg",
+    "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/src/LSLIDAR_X_ROS2/src/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/src/LSLIDAR_X_ROS2/src/lslidar_msgs:msg/LslidarPoint.msg",
+    "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/src/LSLIDAR_X_ROS2/src/lslidar_msgs:msg/LslidarScan.msg",
+    "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/src/LSLIDAR_X_ROS2/src/lslidar_msgs:msg/LslidarSweep.msg"
+  ]
+}

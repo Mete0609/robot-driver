@@ -1,0 +1,11 @@
+diff_drive_controller:
+  type: diff_drive_controller/DiffDriveController
+  left_wheel_names: ["left_wheel_joint"]
+  right_wheel_names: ["right_wheel_joint"]
+  wheel_separation: 0.36   # 轴距
+  wheel_radius: 0.125      # 轮子半径
+  publish_rate: 50
+  base_frame_id: base_link
+  pose_covariance_diagonal: [0.001, 0.001, 1000.0, 1000.0, 1000.0, 0.03]
+  twist_covariance_diagonal: [0.001, 0.001, 1000.0, 1000.0, 1000.0, 0.03]
+  use_stamped_vel: false

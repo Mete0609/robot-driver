@@ -1,0 +1,345 @@
+[0.026s] Invoking command in '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/src/LSLIDAR_X_ROS2/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.153s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.350s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.350s] -- Detecting CXX compile features
+[0.350s] -- Detecting CXX compile features - done
+[0.350s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.476s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.539s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.563s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.566s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.572s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.610s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.630s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.636s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.891s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.328s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.329s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.353s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.353s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.353s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.353s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.371s] -- Found PythonExtra: .so  
+[1.413s] -- Configuring done
+[1.447s] -- Generating done
+[1.456s] -- Build files have been written to: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs
+[1.465s] Invoked command in '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/src/LSLIDAR_X_ROS2/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs
+[1.467s] Invoking command in '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs -- -j4 -l4
+[1.517s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.535s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.553s] [  3%] Built target ament_cmake_python_copy_lslidar_msgs
+[1.724s] running egg_info
+[1.724s] creating lslidar_msgs.egg-info
+[1.724s] writing lslidar_msgs.egg-info/PKG-INFO
+[1.724s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[1.725s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[1.725s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.727s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.728s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.760s] [  3%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[2.052s] [  3%] Built target lslidar_msgs__cpp
+[2.065s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.068s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.068s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.087s] [  9%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o[0m
+[2.167s] [ 11%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o[0m
+[2.216s] [ 12%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o[0m
+[2.267s] [ 14%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o[0m
+[2.317s] [ 15%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o[0m
+[2.391s] [ 17%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so[0m
+[2.446s] [ 17%] Built target lslidar_msgs__rosidl_generator_c
+[2.480s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.504s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[2.586s] [ 22%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o[0m
+[2.590s] [ 23%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o[0m
+[2.763s] [ 25%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[2.941s] [ 26%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o[0m
+[3.003s] [ 28%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o[0m
+[3.018s] [ 30%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[3.026s] [ 31%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o[0m
+[3.238s] [ 33%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[3.378s] [ 34%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o[0m
+[3.397s] [ 36%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o[0m
+[3.468s] [ 38%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[3.524s] [ 39%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o[0m
+[3.692s] [ 41%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o[0m
+[3.746s] [ 42%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so[0m
+[3.810s] [ 42%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[3.815s] [ 44%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o[0m
+[3.819s] [ 46%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o[0m
+[3.919s] [ 47%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o[0m
+[4.057s] [ 49%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.230s] [ 50%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o[0m
+[4.256s] [ 52%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o[0m
+[4.283s] [ 53%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o[0m
+[4.620s] [ 55%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.676s] [ 57%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.693s] [ 58%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o[0m
+[4.740s] [ 60%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o[0m
+[4.741s] [ 60%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[4.762s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.777s] [ 63%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.778s] [ 63%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[4.793s] [ 65%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o[0m
+[4.801s] [ 66%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o[0m
+[4.838s] [ 68%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o[0m
+[4.874s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[4.879s] [ 69%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.922s] [ 69%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[5.088s] [ 71%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[5.088s] [ 74%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[5.088s] [ 74%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[5.089s] [ 76%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[5.122s] [ 77%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[5.154s] [ 79%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so[0m
+[5.202s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_c
+[5.227s] [ 79%] Built target lslidar_msgs
+[5.253s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.843s] [ 80%] Built target lslidar_msgs__py
+[5.873s] [ 82%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o[0m
+[5.874s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o[0m
+[5.874s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o[0m
+[5.874s] [ 87%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o[0m
+[5.979s] [ 88%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o[0m
+[6.072s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so[0m
+[6.124s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[6.153s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.157s] [ 93%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.168s] [ 95%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.273s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.279s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.282s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.320s] [100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.325s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[6.329s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[6.347s] Invoked command in '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs -- -j4 -l4
+[6.348s] Invoking command in '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs
+[6.354s] -- Install configuration: ""
+[6.354s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[6.355s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[6.355s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[6.355s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[6.355s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[6.355s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[6.356s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c
+[6.356s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[6.356s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[6.356s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c
+[6.357s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[6.357s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[6.357s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[6.358s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[6.359s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[6.359s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[6.359s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[6.359s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[6.359s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[6.359s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[6.360s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[6.360s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.360s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[6.360s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[6.361s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[6.361s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""
+[6.361s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[6.362s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[6.362s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[6.362s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[6.362s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[6.362s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[6.362s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[6.363s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[6.363s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.363s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[6.364s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.364s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[6.364s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[6.364s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[6.364s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[6.364s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[6.365s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[6.365s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[6.365s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[6.365s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[6.365s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[6.366s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[6.366s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[6.366s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[6.366s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[6.367s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[6.367s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[6.367s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[6.367s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[6.368s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[6.368s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[6.368s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[6.368s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[6.368s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[6.368s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[6.368s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[6.369s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[6.369s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[6.369s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[6.369s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[6.370s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[6.370s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[6.370s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.370s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.371s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.371s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[6.371s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[6.371s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[6.371s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[6.371s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c
+[6.371s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[6.371s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[6.371s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c
+[6.371s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c
+[6.372s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c
+[6.372s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[6.372s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[6.372s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c
+[6.372s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.372s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[6.373s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.373s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[6.373s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""
+[6.373s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[6.373s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[6.373s] -- Up-to-date: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[6.373s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp
+[6.373s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[6.373s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp
+[6.373s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[6.374s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp
+[6.374s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[6.374s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[6.374s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp
+[6.374s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp
+[6.374s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[6.374s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[6.375s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.375s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[6.375s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+[6.375s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[6.375s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[6.376s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[6.377s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[6.378s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[6.378s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[6.378s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[6.378s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.379s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.379s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.379s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.379s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[6.411s] Listing '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[6.411s] Compiling '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+[6.411s] Listing '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[6.411s] Compiling '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...
+[6.411s] Compiling '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...
+[6.411s] Compiling '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...
+[6.411s] Compiling '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...
+[6.411s] Compiling '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...
+[6.411s] Compiling '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...
+[6.414s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.414s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.415s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.415s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.415s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.416s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.416s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[6.416s] -- Set runtime path of "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+[6.416s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[6.417s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[6.418s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[6.418s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[6.418s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[6.418s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[6.419s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[6.419s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[6.419s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[6.419s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[6.419s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[6.419s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[6.420s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[6.420s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[6.420s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[6.420s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[6.420s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.420s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[6.421s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.422s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.422s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.422s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[6.422s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.422s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[6.422s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.423s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[6.424s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[6.424s] -- Installing: /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[6.426s] Invoked command in '/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs

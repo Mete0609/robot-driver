@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lslidar_msgs__py",
+		"source" : "/home/mete/ros2_project/ros2bookcode/chapt6/lslidar_test_ws/build/lslidar_msgs/lslidar_msgs__py"
+	}
+}

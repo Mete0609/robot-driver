@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description -- -j4 -l4
+[0.072s] Invoked command in '/home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description -- -j4 -l4
+[0.082s] Invoking command in '/home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description
+[0.090s] -- Install configuration: ""
+[0.090s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.090s]   file INSTALL cannot find
+[0.090s]   "/home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/src/fishbot_description/launch":
+[0.090s]   No such file or directory.
+[0.090s] 
+[0.090s] [0m
+[0.091s] Invoked command in '/home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mete/ros2_project/ros2bookcode/chapt6/chapt6_ws/build/fishbot_description
